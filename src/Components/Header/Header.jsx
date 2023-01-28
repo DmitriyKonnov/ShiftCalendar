@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Header() {
+export const Header = () => {
   return (
     <div className="container mx-auto bg-main text-font p-6 text-2xl rounded-t-xl">
       <ul className="flex gap-12">
@@ -9,7 +9,7 @@ export default function Header() {
           <Link to="/">Год</Link>
         </li>
         <li>
-          <Link to="/">Месяц</Link>
+          <Link to="/Month">Месяц</Link>
         </li>
         <li>
           <Link to="/">Неделя</Link>
@@ -17,4 +17,6 @@ export default function Header() {
       </ul>
     </div>
   );
-}
+};
+
+export default Header;
