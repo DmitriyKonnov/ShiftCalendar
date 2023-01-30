@@ -6,13 +6,19 @@ export const Header = () => {
     <div className="container mx-auto bg-main text-font p-6 text-2xl rounded-t-xl">
       <ul className="flex gap-12">
         <li>
-          <Link to="/">Год</Link>
+          <Link className="hover:text-white" to="/">
+            Год
+          </Link>
         </li>
         <li>
-          <Link to="/Month">Месяц</Link>
+          <Link className="hover:text-white" to="/Month">
+            Месяц
+          </Link>
         </li>
         <li>
-          <Link to="/">Неделя</Link>
+          <Link className="hover:text-white" to="/">
+            Неделя
+          </Link>
         </li>
       </ul>
     </div>
