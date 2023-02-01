@@ -11,12 +11,12 @@ export const Header = () => {
           </Link>
         </li>
         <li>
-          <Link className="hover:text-white" to="/Month">
+          <Link className="hover:text-white" to="/month">
             Месяц
           </Link>
         </li>
         <li>
-          <Link className="hover:text-white" to="/">
+          <Link className="hover:text-white" to="/week">
             Неделя
           </Link>
         </li>

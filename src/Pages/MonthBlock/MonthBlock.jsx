@@ -3,7 +3,7 @@ import Month from '../../Components/Month/Month';
 
 export const MonthBlock = () => {
   return (
-    <div className="container mx-auto bg-theme p-6">
+    <div className="container mx-auto bg-theme p-6 ounded-b-xl">
       <h3>Январь</h3>
       <Month />
     </div>

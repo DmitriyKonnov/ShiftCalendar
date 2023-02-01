@@ -3,7 +3,11 @@ import React from 'react';
 const daysName = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
 
 const listDaysName = daysName.map((dayName, index) => {
-  return <li key={index}>{dayName}</li>;
+  return (
+    <li className="text-3xl" key={index}>
+      {dayName}
+    </li>
+  );
 });
 
 const days = [
