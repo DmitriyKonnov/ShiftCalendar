@@ -28,7 +28,7 @@ const listDays = days.map((day, index) => {
 export const Month = ({ title }) => {
   return (
     <div className="w-full bg-elemnt rounded-xl">
-      <h3 className="text-center text-4xl">{title}</h3>
+      <h3 className="text-center text-4xl m-2">{title}</h3>
       <ul className="px-2 grid grid-cols-7 justify-items-center">{listDaysName}</ul>
       <ul className="p-2 grid grid-cols-7 justify-items-center w-full">{listDays}</ul>
     </div>

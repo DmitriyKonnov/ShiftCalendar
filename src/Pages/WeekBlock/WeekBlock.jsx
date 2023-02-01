@@ -21,7 +21,7 @@ const weekList = weekName.map((name, index) => {
 export const WeekBlock = () => {
   return (
     <div className="container mx-auto bg-theme p-6 rounded-b-xl">
-      <ul className="px-2 grid grid-cols-7 justify-items-center">{weekList}</ul>
+      <ul className="px-2 grid grid-cols-7 justify-items-center mb-6">{weekList}</ul>
       <Week />
     </div>
   );
