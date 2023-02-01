@@ -4,7 +4,7 @@ const days = [1, 2, 3, 4, 5, 6, 7];
 const daysList = days.map((day, index) => {
   return (
     <li
-      className="border border-font w-full text-center grid content-center aspect-square"
+      className="border-r border-font w-full text-center grid content-center aspect-square"
       key={index}>
       {day}
     </li>
@@ -14,7 +14,9 @@ const daysList = days.map((day, index) => {
 export const Week = () => {
   return (
     <div className="w-full bg-elemnt rounded-xl">
-      <ul className="p-2 grid grid-cols-7 justify-items-center w-full">{daysList}</ul>
+      <ul className="grid grid-cols-7 justify-items-center w-full border rounded-xl border-font overflow-hidden">
+        {daysList}
+      </ul>
     </div>
   );
 };
