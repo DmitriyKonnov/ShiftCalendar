@@ -22,7 +22,7 @@ export const WeekBlock = () => {
   return (
     <div className="container mx-auto bg-theme p-6 rounded-b-xl">
       <ul className="px-2 grid grid-cols-7 justify-items-center">{weekList}</ul>
-      {Week}
+      <Week />
     </div>
   );
 };
