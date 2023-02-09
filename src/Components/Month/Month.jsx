@@ -18,7 +18,7 @@ const days = [
 const listDays = days.map((day, index) => {
   return (
     <li
-      className="border-r border-b border-font w-full text-center grid content-center aspect-square"
+      className="border-r hover:bg-fontHover border-b border-font w-full text-center grid content-center aspect-square cursor-pointer"
       key={index}>
       {day}
     </li>

@@ -4,7 +4,7 @@ const days = [1, 2, 3, 4, 5, 6, 7];
 const daysList = days.map((day, index) => {
   return (
     <li
-      className="border-r border-font w-full text-center grid content-center aspect-square"
+      className="border-r border-font w-full text-center grid content-center aspect-square cursor-pointer text-5xl"
       key={index}>
       {day}
     </li>

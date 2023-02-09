@@ -8,6 +8,7 @@ module.exports = {
         main: '#434C5E',
         theme: '#2E3440',
         font: '#D8DEE9',
+        fontHover: '#D8DEE9',
       },
     },
   },

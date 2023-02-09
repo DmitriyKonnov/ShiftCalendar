@@ -1,18 +1,10 @@
 import React from 'react';
 import Week from '../../Components/Week/Week';
 
-const weekName = [
-  'Понедельник',
-  'Вторник',
-  'Среда',
-  'Четверг',
-  'Пятница',
-  'Суббота',
-  'Воскресенье',
-];
+const weekName = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
 const weekList = weekName.map((name, index) => {
   return (
-    <li className="text-3xl" key={index}>
+    <li className="text-5xl" key={index}>
       {name}
     </li>
   );
