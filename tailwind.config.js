@@ -10,6 +10,7 @@ module.exports = {
         font: '#D8DEE9',
         hover: '#3B4252',
         focus: '#5E81AC',
+        active: '#5E81AC',
       },
     },
   },
