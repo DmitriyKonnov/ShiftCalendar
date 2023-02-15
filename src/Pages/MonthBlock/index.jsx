@@ -1,5 +1,5 @@
 import React from 'react';
-import Month from '../../Components/Month/Month';
+import Month from '../../Components/Month';
 
 export const MonthBlock = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import Week from '../../Components/Week/Week';
+import Week from '../../Components/Week';
 
 const weekName = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
 const weekList = weekName.map((name, index) => {
