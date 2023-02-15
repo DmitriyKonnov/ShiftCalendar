@@ -10,12 +10,7 @@ const listDaysName = daysName.map((dayName, index) => {
   );
 });
 
-const days = [
-  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
-  28, 29, 30, 31,
-];
-
-export const Month = ({ title }) => {
+export const Month = ({ month }) => {
   const [addDay, setAddDay] = useState(false);
   function onChangeDays() {
     setAddDay(!addDay);
@@ -23,10 +18,10 @@ export const Month = ({ title }) => {
 
   return (
     <div className="w-full bg-elemnt rounded-xl p-2">
-      <h3 className="text-center text-4xl m-2">{title}</h3>
+      <h3 className="text-center text-4xl m-2">{month.title}</h3>
       <ul className="px-2 grid grid-cols-7 justify-items-center mb-2">{listDaysName}</ul>
       <ul className="grid grid-cols-7 justify-items-center w-full border rounded-xl border-font overflow-hidden">
-        {days.map((day, index) => (
+        {month.days.map((day, index) => (
           <li
             onClick={onChangeDays}
             className={`${

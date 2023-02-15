@@ -109,8 +109,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<YearBlock />} />
-        <Route path="/month" element={<MonthBlock />} />
+        <Route path="/" element={<YearBlock months={months} />} />
+        <Route path="/month" element={<MonthBlock months={months} />} />
         <Route path="/week" element={<WeekBlock />} />
       </Routes>
     </>
