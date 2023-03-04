@@ -3,7 +3,6 @@ import Header from './Components/Header';
 import { Route, Routes } from 'react-router';
 import YearBlock from './Pages/YearBlock';
 import MonthBlock from './Pages/MonthBlock';
-import WeekBlock from './Pages/WeekBlock';
 
 const months = [
   {
@@ -463,7 +462,6 @@ function App() {
       <Routes>
         <Route path="/" element={<YearBlock months={months} />} />
         <Route path="/month" element={<MonthBlock months={months} />} />
-        <Route path="/week" element={<WeekBlock />} />
       </Routes>
     </>
   );

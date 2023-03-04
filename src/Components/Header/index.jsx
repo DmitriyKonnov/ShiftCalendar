@@ -15,11 +15,6 @@ export const Header = () => {
             Месяц
           </Link>
         </li>
-        <li>
-          <Link className="hover:text-white" to="/week">
-            Неделя
-          </Link>
-        </li>
       </ul>
     </div>
   );
