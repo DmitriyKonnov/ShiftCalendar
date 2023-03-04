@@ -15,7 +15,7 @@ export const Month = ({ month }) => {
   function onChangeDays() {
     setAddDay(!addDay);
   }
-
+  // console.log(month);
   return (
     <div className="w-full bg-elemnt rounded-xl p-2">
       <h3 className="text-center text-4xl m-2">{month.title}</h3>
